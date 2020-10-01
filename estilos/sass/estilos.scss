@@ -1,0 +1,535 @@
+$color-primary: rgb(50, 204, 224);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding:100px;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .logo {
+        position: relative;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+        letter-spacing: 1px;   
+          img {
+            height: 80px;
+            width: 80px;
+          } 
+    }
+    .navegacion {
+        position: relative;
+        display: flex;
+        li {
+            list-style: none;
+            a {
+                display: inline-block;
+                color: #fff;
+                font-weight: 500;
+                margin-right: 40px;
+                text-decoration: none;
+                
+            }
+            a:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+#contacto {
+        margin-right: 0;
+}
+    
+    .contenido {
+      max-width: 600px;
+      margin-top: 80px;
+        .contenidobx {
+                    h2 {
+                        font-size: 4em;
+                        color: #fff;
+                        line-height: 1em;
+                        text-shadow: 2px 2px 2px black;
+                        }
+                    p {
+                        font-size: 1.1rem;
+                        color: #fff;
+                        font-weight: 400;
+                        margin: 20px 0;
+                        text-shadow: 2px 2px 2px black;
+                        }
+                    a {
+                        display: inline-block;
+                        padding: 10px 30px;
+                        background: $color-primary;
+                        color: #fff;
+                        text-decoration: none;
+                        border-radius: 3px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        box-shadow: 5px 5px 10px black;
+                        text-shadow: 1px 1px 2px black;
+                        }
+            }
+        }
+      
+      .redes {
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+            li {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h3 {
+                    display: inline-block;
+                    color: #fff;
+                    font-size: .8em;
+                    span {
+                        color: $color-primary;
+                        font-weight: 600;
+                        display: inline-block;
+                      }
+                }
+                a{
+                    position: relative;
+                    display: inline-block;
+                    margin-right: 20px;
+                    filter: invert(1);
+                    transform: scale(0.7);
+                    img:hover{
+                        transform: rotate(360deg);
+                        transition: 1s;
+                      }
+                  } 
+                  a:hover{
+                    transform: scale(1);
+                    transform: rotate(360deg);
+                    transition: 1s;
+                 }   
+            }
+        }
+      
+  
+      /*------------------------------------- PASO A PASO CSS ------------------------------------------------*/
+     
+      body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        min-height: 100vh;
+        background: #212121;
+        font-family: sans-serif;
+      }
+      .box{
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap; 
+        margin: 50px auto;
+        margin-bottom: 0;
+      }
+      .card{
+        display: flex;
+        position: relative;
+        width: 300px;
+        height: 350px;
+        background: #fff;
+        margin: 5px auto;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow:0 2px 10px rgba(0,0,0,.2);
+      }
+      .card:before,
+      .card:after
+      {
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        background: #fff;
+        transition: 0.5s;
+        z-index:-1;
+      }
+      .card:hover:before{
+      transform: rotate(20deg);
+      box-shadow: 0 2px 20px rgba(0,0,0,.2);
+      }
+      .card:hover:after{
+      transform: rotate(10deg);
+      box-shadow: 0 2px 20px rgba(0,0,0,.2);
+      }
+      .card .imgBx{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      bottom: 10px;
+      right: 10px;
+      background: #000;
+      transition: 0.5s;
+      z-index: 1;
+      }
+      
+      .card:hover .imgBx
+      {
+        bottom: 80px;
+      }
+      
+      .card {
+          .details{
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            height: 60px;
+            text-align: center;
+            h2{
+              margin: 0;
+              padding: 0;
+              font-weight: 600;
+              font-size: 20px;
+              color: #000;
+              text-transform: uppercase;
+              span{
+                font-weight: 500;
+                font-size: 16px;
+                color: $color-primary;
+                display: block;
+                margin-top: 5px;
+                text-shadow: 1px 1px .5px #222;
+                 } 
+             } 
+          }
+         .imgBx{ 
+              img{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+          }
+        }
+      } 
+      
+      .bloque {
+        display: block;
+        text-align: center;
+        width:100%;
+        align-items: center;
+          h1 {
+            text-align: center;
+            margin:20px 0 15px 0;
+            font-weight: 600;
+            color: $color-primary;
+          }
+      }
+      
+      /*------------------------------------ CONTACTO CSCS ----------------------------------------------*/
+      
+      h1{
+        text-align: center;
+        margin: 15px 0;
+        font-weight: 600;
+      }
+      
+      form{
+        background: #fff;
+        width: 50%;
+        padding: 15px 0;
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgb(255, 255, 255);
+          .grupo{
+            position: relative;
+            margin: 45px;
+          }
+      }
+      
+      .form{
+        width: 100%;
+        margin: auto;
+      }
+      
+      input, textarea{
+        background: rgba(255, 255, 255, 0.096);
+        color:#c6c6c6;
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border:none;
+        border-radius: 5px;
+        border-bottom: 1px solid $color-primary;
+        resize: none;
+      }
+      
+      input:focus,textarea:focus{
+        outline: none;
+        color: rgb(94,93,93);
+      }
+      
+      input:focus~label, 
+      input:valid~label, 
+      textarea:focus~label, textarea:valid~label{
+        position: absolute;
+        top: -19px;
+        font-size: 12px;
+        color: #2196F3;
+      }
+      
+      label{
+        color: $color-primary;
+        font-size: 16px;
+        position: absolute;
+        left: 5px;
+        top:10px;
+        transition: 0.5s ease all;
+        pointer-events: none;
+      }
+      
+      
+      input:focus~.barra::before, textarea:focus~.barra::before{
+        width: 100%;
+      }
+      .barra{
+        position: relative;
+        display: block;
+        width: 100%;
+      }
+      .barra::before{
+        content: '';
+        height: 2px;
+        width: 0%;
+        bottom: 0;
+        position: absolute;
+        background: linear-gradient(to right, #000, $color-primary);
+        transition: 0.3s ease all;
+        left: 0%;
+      }
+      button{
+        background-color: black;
+        display: block;
+        width: 100px;
+        height: 40px;
+        border:none;
+        color: $color-primary; 
+        border-radius: 4px;
+        font-size: 16px;
+        margin: 10px auto;
+        cursor: pointer;
+      }
+      
+      /*--------------------------------------------------------SOBRE MI CSS--------------------------------*/
+      
+      .sobremi {
+        position: relative;
+        min-height: 100vh;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+          .contenedorsobremi {
+            max-width: 800px;
+            text-align: center;
+            h1 {
+              font-size: 36px;
+              font-weight: 700;
+              color: $color-primary;
+              text-shadow: 2px 2px 2px black;
+            }
+            p {
+              font-weight: 600;
+              color: #fff;
+              text-shadow: 2px 2px 1px black;
+              background-color: rgba(0, 0, 0, 0.377);
+              padding: 10px 10px;
+              border-radius: 5px;
+            }
+          }
+      }
+    
+      
+      .contenidosobremi {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          .infocontacto {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+              .boxsobremi {
+                position: relative;
+                padding: 20px 0;
+                display: flex;
+                  .video {
+                    width: 100%;
+                  }
+              }
+          }
+      }
+  
+      video {
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px black;
+      }
+      
+      /*----------------------------------- GALERIA/PORTFOLIO -------------------------------*/
+      
+      .galeria{
+        font-family: 'open sans';
+        margin-top: 50px;
+        margin-bottom: 20px;
+          h1{
+            text-align: center;
+            margin:20px 0 15px 0;
+            font-weight: 600;
+            color: $color-primary;
+            text-shadow: 2px 2px 10px black;
+          }
+      }
+      
+      .linea{
+        border-top: 5px solid #fff;
+        margin-bottom: 40px;
+      }
+      
+      .contenedor-imagenes{
+        display:flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius:3px;
+          .imagen{
+            width: 32%;
+            position: relative;
+            height:250px;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+            border: 8px solid #fff;
+            border-radius: 5px;
+          }
+      }
+      
+      .imagen img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: $color-primary;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: .5s ease;
+          h2{
+            color: #000;
+            font-weight: 600;
+            font-size: 30px;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+          }
+      }
+      
+      .imagen:hover .overlay{
+        height:100%;
+        cursor: pointer;
+      }
+      
+      .light-box {
+          position: fixed;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, .5);
+          width: 100%;
+          height: 100vh;
+          z-index: 1000;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          transform: scale(0);
+            img {
+              margin: 0 10px;
+              height: 90vh;
+              width: auto;
+            }
+      }
+      
+      .light-box:target {
+        transform: scale(1);
+      }
+            
+      .close {
+        display:block;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 90px;
+        border-radius: 50%;
+      }
+      .next {
+        display:block;
+        top: 40px;
+        right: 40px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+      }
+      
+      /*---------------------------------------------- MEDIA QUERYS --------------------------------------------*/
+      
+      @import 'mediaquerys';

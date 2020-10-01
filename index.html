@@ -1,0 +1,48 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calu Arteando</title>
+    <link rel="stylesheet" href="estilos/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="index.html" class="logo"><img src="img/Logocalu.png" alt="logo"></a>
+            <div class="listamenu" onclick="listamenu();"></div>
+            <ul class="navegacion">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="pasoapaso.html">PASO A PASO</a></li>
+                <li><a href="sobremi.html">SOBRE MI</a></li>
+                <li><a href="contacto.html" id="contacto">CONTACTO</a></li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <div class="contenidobx">
+                <h2>Retratos y Murales</h2>
+                <p>Hola! Aquí podrás encontrar mis trabajos, 
+                   como los hice y un apartado para contactarme , espero que te guste.
+                </p>          
+                <a href="portfolio.html">¡Date una vuelta!</a>
+            </div>
+        </div>
+        <ul class="redes">
+            <li><a href=""><img src="/img/facebook.png" alt="Facebook"></a></li>
+            <li><a href=""><img src="/img/instagram.png" alt="Instagram"></a></li>
+            <li><h3>Copyright 2020. <span>Creado por Fito Münger</span>.</h3></li>
+        </ul>
+                   
+    </section>
+
+    <script type="text/javascript">
+        function listamenu(){
+                const listamenu = document.querySelector('.listamenu');
+                const navegacion = document.querySelector('.navegacion');
+                listamenu.classList.toggle('active');
+                navegacion.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

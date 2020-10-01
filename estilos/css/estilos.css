@@ -1,0 +1,915 @@
+/* line 3, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 10, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 100px;
+}
+
+/* line 22, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 32, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header .logo {
+  position: relative;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* line 40, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header .logo img {
+  height: 80px;
+  width: 80px;
+}
+
+/* line 45, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header .navegacion {
+  position: relative;
+  display: flex;
+}
+
+/* line 48, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header .navegacion li {
+  list-style: none;
+}
+
+/* line 50, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header .navegacion li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+/* line 58, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+header .navegacion li a:hover {
+  color: #32cce0;
+}
+
+/* line 65, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+#contacto {
+  margin-right: 0;
+}
+
+/* line 69, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenido {
+  max-width: 600px;
+  margin-top: 80px;
+}
+
+/* line 73, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenido .contenidobx h2 {
+  font-size: 4em;
+  color: #fff;
+  line-height: 1em;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 79, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenido .contenidobx p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 400;
+  margin: 20px 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 86, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenido .contenidobx a {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #32cce0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 10px black;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* line 101, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* line 108, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 113, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes li h3 {
+  display: inline-block;
+  color: #fff;
+  font-size: .8em;
+}
+
+/* line 117, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes li h3 span {
+  color: #32cce0;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* line 123, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes li a {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.7);
+}
+
+/* line 129, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes li a img:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+/* line 134, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.redes li a:hover {
+  transform: scale(1);
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+/*------------------------------------- PASO A PASO CSS ------------------------------------------------*/
+/* line 145, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #212121;
+  font-family: sans-serif;
+}
+
+/* line 155, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.box {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  margin-bottom: 0;
+}
+
+/* line 162, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* line 173, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card:before,
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+/* line 187, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card:hover:before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* line 191, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* line 195, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card .imgBx {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #000;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+/* line 206, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card:hover .imgBx {
+  bottom: 80px;
+}
+
+/* line 212, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card .details {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+/* line 219, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card .details h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/* line 226, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card .details h2 span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #32cce0;
+  display: block;
+  margin-top: 5px;
+  text-shadow: 1px 1px .5px #222;
+}
+
+/* line 237, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 248, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.bloque {
+  display: block;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+/* line 253, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.bloque h1 {
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-weight: 600;
+  color: #32cce0;
+}
+
+/*------------------------------------ CONTACTO CSCS ----------------------------------------------*/
+/* line 263, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+h1 {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+/* line 269, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+form {
+  background: #fff;
+  width: 50%;
+  padding: 15px 0;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 white;
+}
+
+/* line 278, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+form .grupo {
+  position: relative;
+  margin: 45px;
+}
+
+/* line 284, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.form {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 289, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+input, textarea {
+  background: rgba(255, 255, 255, 0.096);
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #32cce0;
+  resize: none;
+}
+
+/* line 302, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+input:focus, textarea:focus {
+  outline: none;
+  color: #5e5d5d;
+}
+
+/* line 307, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label, textarea:valid ~ label {
+  position: absolute;
+  top: -19px;
+  font-size: 12px;
+  color: #2196F3;
+}
+
+/* line 316, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+label {
+  color: #32cce0;
+  font-size: 16px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  transition: 0.5s ease all;
+  pointer-events: none;
+}
+
+/* line 327, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+input:focus ~ .barra::before, textarea:focus ~ .barra::before {
+  width: 100%;
+}
+
+/* line 330, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.barra {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* line 335, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.barra::before {
+  content: '';
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #000, #32cce0);
+  transition: 0.3s ease all;
+  left: 0%;
+}
+
+/* line 345, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+button {
+  background-color: black;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #32cce0;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------SOBRE MI CSS--------------------------------*/
+/* line 360, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.sobremi {
+  position: relative;
+  min-height: 100vh;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 368, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.sobremi .contenedorsobremi {
+  max-width: 800px;
+  text-align: center;
+}
+
+/* line 371, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.sobremi .contenedorsobremi h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #32cce0;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 377, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.sobremi .contenedorsobremi p {
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 1px black;
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+/* line 389, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenidosobremi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 394, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenidosobremi .infocontacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 398, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenidosobremi .infocontacto .boxsobremi {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+/* line 402, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenidosobremi .infocontacto .boxsobremi .video {
+  width: 100%;
+}
+
+/* line 409, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+video {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+/*----------------------------------- GALERIA/PORTFOLIO -------------------------------*/
+/* line 416, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.galeria {
+  font-family: 'open sans';
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 420, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.galeria h1 {
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-weight: 600;
+  color: #32cce0;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* line 429, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.linea {
+  border-top: 5px solid #fff;
+  margin-bottom: 40px;
+}
+
+/* line 434, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+}
+
+/* line 441, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.contenedor-imagenes .imagen {
+  width: 32%;
+  position: relative;
+  height: 250px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  border: 8px solid #fff;
+  border-radius: 5px;
+}
+
+/* line 452, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 458, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #32cce0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: .5s ease;
+}
+
+/* line 467, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.overlay h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+/* line 479, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.imagen:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+}
+
+/* line 484, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.light-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+/* line 496, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.light-box img {
+  margin: 0 10px;
+  height: 90vh;
+  width: auto;
+}
+
+/* line 503, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.light-box:target {
+  transform: scale(1);
+}
+
+/* line 507, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.close {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+  border-radius: 50%;
+}
+
+/* line 520, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/estilos.scss */
+.next {
+  display: block;
+  top: 40px;
+  right: 40px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+/*---------------------------------------------- MEDIA QUERYS --------------------------------------------*/
+@media screen and (max-width: 1100px) {
+  /* line 2, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  form {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  /* line 8, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 14, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  video {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+  }
+  /* line 18, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .galeria {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  /* line 22, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenedor-imagenes {
+    width: 95%;
+  }
+  /* line 25, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+  }
+  /* line 37, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .light-box img {
+    margin: 0 10px;
+    height: auto;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 46, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  header {
+    padding: 15px 30px;
+    background: linear-gradient(black, rgba(0, 0, 0, 0));
+  }
+  /* line 50, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  section {
+    padding: 0 30px;
+    background: url(../../img/background-vertical.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 57, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenido {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  /* line 63, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenido .contenidobx h2 {
+    font-size: 2.5em;
+    color: #fff;
+    line-height: 1em;
+    text-shadow: 2px 2px 2px black;
+  }
+  /* line 69, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenido .contenidobx p {
+    font-size: 1em;
+    text-shadow: 2px 2px 2px black;
+  }
+  /* line 77, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  header .navegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* line 90, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  header .navegacion li a {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  /* line 96, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  header .navegacion.active {
+    display: flex;
+  }
+  /* line 101, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .listamenu {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(/img/menu.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 11;
+  }
+  /* line 112, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .listamenu.active {
+    background: url(/img/close.png);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+  }
+  /* line 119, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .box {
+    margin: 180px auto;
+  }
+  /* line 122, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  video {
+    width: 90%;
+  }
+  /* line 127, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  /* line 133, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  video {
+    width: 90%;
+  }
+  /* line 136, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  form {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 70px;
+  }
+  /* line 142, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .galeria {
+    margin-top: 150px;
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* line 150, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  /* line 156, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .galeria {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  /* line 160, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenedor-imagenes {
+    width: 90%;
+  }
+  /* line 162, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenedor-imagenes .imagen {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* line 171, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  /* line 177, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  form {
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  /* line 184, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin: auto;
+  }
+  /* line 191, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  video {
+    width: 100%;
+  }
+  /* line 194, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .galeria {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* line 202, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  form {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  /* line 209, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  /* line 215, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  video {
+    width: 100%;
+  }
+  /* line 218, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  h1 {
+    font-size: 22px;
+  }
+  /* line 221, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .galeria {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  /* line 225, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenedor-imagenes {
+    width: 98%;
+  }
+  /* line 227, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .contenedor-imagenes .imagen {
+    width: 80%;
+  }
+  /* line 231, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+  }
+  /* line 243, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .light-box img {
+    height: auto;
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* line 251, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  form {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  /* line 258, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .sobremi .contenedorsobremi {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  /* line 264, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  video {
+    width: 100%;
+  }
+  /* line 267, ../../../../../OneDrive/Escritorio/Edicion/Fito/CODIGO/web-calu-noframework/estilos/sass/_mediaquerys.scss */
+  .galeria {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

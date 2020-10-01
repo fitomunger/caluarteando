@@ -1,0 +1,103 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calu Arteando</title>
+    <link rel="stylesheet" href="estilos/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="index.html" class="logo"><img src="img/Logocalu.png" alt="logo"></a>
+            <div class="listamenu" onclick="listamenu();"></div>
+            <ul class="navegacion">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="pasoapaso.html">PASO A PASO</a></li>
+                <li><a href="sobremi.html">SOBRE MI</a></li>
+                <li><a href="contacto.html" id="contacto">CONTACTO</a></li>
+            </ul>
+        </header>
+
+        <div class="galeria">
+            <div class="contenedor-imagenes">
+                <div class="imagen">
+                    <a href="#imagen1">
+                    <img src="/img/joker/1.jpg" alt="Joker paso uno" title="Joker paso uno">
+                    <div class="overlay">
+                        <h2>1</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="imagen">
+                    <a href="#imagen2">
+                    <img src="/img/joker/2.jpg" alt="Joker paso dos" title="Joker paso dos">
+                    <div class="overlay">
+                        <h2>2</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="imagen">
+                    <a href="#imagen3">
+                    <img src="/img/joker/3.jpg" alt="Joker paso tres" title="Joker paso tres">
+                    <div class="overlay">
+                        <h2>3</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="imagen">
+                    <a href="#imagen4">
+                    <img src="/img/joker/4.jpg" alt="Joker paso cuatro" title="Joker paso cuatro">
+                    <div class="overlay">
+                        <h2>4</h2>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <article class="light-box" id="imagen1">
+            <a href="" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="/img/joker/1.jpg" alt="Joker paso uno" title="Joker paso uno">
+            <a href="" class="next"> <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+        </article>
+        <article class="light-box" id="imagen2">
+            <a href="" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="/img/joker/2.jpg" alt="Joker paso dos" title="Joker paso dos">
+            <a href="" class="next"> <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+        </article>
+        <article class="light-box" id="imagen3">
+            <a href="" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="/img/joker/3.jpg" alt="Joker paso tres" title="Joker paso tres">
+            <a href="" class="next"> <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+        </article>
+        <article class="light-box" id="imagen4">
+            <a href="" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="/img/joker/4.jpg" alt="Joker paso cuatro" title="Joker paso cuatro">
+            <a href="" class="next"> <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+        </article>
+        
+        <ul class="redes">
+            <li><a href=""><img src="/img/facebook.png" alt="Facebook"></a></li>
+            <li><a href=""><img src="/img/instagram.png" alt="Instagram"></a></li>
+            <li><h3>Copyright 2020. <span>Creado por Fito Münger</span>.</h3></li>
+        </ul>
+                   
+    </section>
+
+    <script src="https://kit.fontawesome.com/e732ebafb0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function listamenu(){
+                const listamenu = document.querySelector('.listamenu');
+                const navegacion = document.querySelector('.navegacion');
+                listamenu.classList.toggle('active');
+                navegacion.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
